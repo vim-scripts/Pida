@@ -1,0 +1,11 @@
+include README
+include CONTRIUTORS
+include CHANGELOG
+include RELNOTES
+include TODO
+include *.py
+recursive-include src *.py
+include scripts/*
+include data/icons.dat
+include data/pidalogo.png
+recursive-include debian *

@@ -1,0 +1,34 @@
+pida (0.2.2) unstable; urgency=low
+
+  * New upstream release. 
+
+ -- George Cristian Birzan <gcbirzan@rdsct.ro>  Wed,  3 Aug 2005 09:57:54 +0300
+
+pida (0.2.1) unstable; urgency=low
+
+  * New upstream release. 
+
+ -- George Cristian Bîrzan <gcbirzan@wolfheart.ro>  Wed, 22 Jun 2005 02:14:43 +0300
+
+pida (0.2.0) unstable; urgency=low
+
+  * New upstream release.
+  * Multiple Python version package versions.
+
+ -- George Cristian Bîrzan <gcbirzan@wolfheart.ro>  Mon, 20 Jun 2005 13:33:07 +0300
+
+pida (0.1.7) unstable; urgency=low
+
+  * New upstream release.
+  * Packaging now done upstream.
+  * Dependency on gvim actually works, but since it can't be versioned, Woody
+    users are out of luck.
+
+ -- George Cristian Bîrzan <gcbirzan@wolfheart.ro>  Mon, 13 Jun 2005 01:56:40 +0300
+
+pida (0.1.6+cvs20050608-1) unstable; urgency=low
+
+  * Initial release 
+
+ -- George Cristian Bîrzan <gcbirzan@wolfheart.ro>  Wed,  8 Jun 2005 23:20:05 +0300
+

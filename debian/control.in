@@ -1,0 +1,49 @@
+Source: pida
+Section: devel
+Priority: optional
+Maintainer: George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+Build-Depends: @cdbs@, python (>= 2.3), python-dev (>= 2.3)
+Standards-Version: 3.6.1
+
+Package: python-pida
+Cpu: any
+System: any
+Depends: ${python:Depends}, python2.3-pida
+Conflicts: pida
+Replaces: pida
+Provides: pida
+Description: Python Integrated Development Applicationr, a Python IDE.
+ Pida uses Vim as its editor, and aims to integrate
+ existing tools rather than 
+ .
+ This is the default Debian Python version version.
+
+Package: python2.3-pida
+Cpu: any
+System: any
+Depends: ${python:Depends}, gvim, python2.3-gtk2, python-vte
+Recommends: bicyclerepair, python2.3-profiler
+Suggests: gazpacho
+Conflicts: python2.4-pida, pida
+Replaces: pida
+Provides: pida
+Description: Python Integrated Development Applicationr, a Python IDE.
+ Pida uses Vim as its editor, and aims to integrate
+ existing tools rather than 
+ .
+ This is the Python 2.3 version.
+
+Package: python2.4-pida
+Cpu: any
+System: any
+Depends: ${python:Depends}, gvim, python2.4-gtk2, python-vte, bicyclerepair, python2.4-profiler
+Recommends: bicyclerepair, python2.4-profiler
+Suggests: gazpacho
+Conflicts: python2.3-pida, pida
+Replaces: pida
+Provides: pida
+Description: Python Integrated Development Applicationr, a Python IDE.
+ Pida uses Vim as its editor, and aims to integrate
+ existing tools rather than
+ .
+ This is the Python 2.4 version.

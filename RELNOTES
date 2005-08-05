@@ -1,0 +1,35 @@
+Release Notes for Pida 0.2.2
+
+== What's New ==
+
+;Pastebin plugin : Allows pasting of entered, and yanked text to the rafb.net
+and #Pida pastebins.
+
+;Culebra plugin : Editor using GTSourceView, including syntax highlighting,
+block indent, block comment, and intelligent Python code completion, can be used in
+place of Vim.
+
+;Per-filetype Plugins : Plugins can be optionally displayed and hidden for
+different file-types.
+
+;Mercurial support : Basic support has been added to the project plugin to
+support the Mercurial version control system.
+
+;Filetype handling : Plugins can be configured to be displayed per filetype.
+
+;Terminal support : Xterm can be used in place of the internal VTE widget.
+
+;Layout : Added options for alternate layouts.
+
+;Buffer list : Display parent directory of buffer filename in buffer list.
+
+;First time-run wizard to select required components.
+
+== Notes ==
+
+Please read README in the same directory as this file for installation/upgrade
+information and known issues.
+
+Enjoy,
+
+The Pida Team

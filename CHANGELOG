@@ -1,0 +1,2362 @@
+
+2005-07-22 17:45 +0000 [r447]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/options.py: changed default config to
+	  invisible status bar
+
+2005-07-22 17:36 +0000 [r445-446]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/project/plugin.py: fixed attempting to go up
+	  from empty directory
+
+	* trunk/src/plugins/terminal/plugin.py: fixed terminal right click
+	  commands
+
+2005-07-22 17:12 +0000 [r444]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/gazpacho/plugin.py: Fixed minor bugs in
+	  Gazpacho plugin
+
+2005-07-22 17:00 +0000 [r443]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/project/plugin.py: initial import
+
+2005-07-22 16:52 +0000 [r442]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/edit.py: * Fixed set_cursor in
+	  autocompletion window
+
+2005-07-22 16:42 +0000 [r441]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/importsTipper.py,
+	  trunk/src/plugins/culebra/edit.py: * some little fixes in
+	  autocompletion
+
+2005-07-22 16:24 +0000 [r440]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/dialogs.py,
+	  trunk/src/plugins/culebra/edit.py: * Fixed open folder for
+	  culebra.
+
+2005-07-22 15:51 +0000 [r439]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/python_browser/plugin.py,
+	  trunk/src/plugins/terminal/plugin.py: python scripts executed in
+	  their own directory as a working directory
+
+2005-07-22 14:18 +0000 [r438]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/MANIFEST.in, trunk/src/plugins/vim/gdkvim.py: fixed vim
+	  message parser not to error on messages from vim7
+
+2005-07-22 13:40 +0000 [r437]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/terminal/plugin.py: remove tab button does not
+	  fail when there are no tabs
+
+2005-07-22 13:35 +0000 [r436]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/culebra/edit.py: fixed a few bad calls in
+	  culebra after refactoring out self.cb
+
+2005-07-22 13:28 +0000 [r434-435]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/terminal/plugin.py: changed default browser
+	  home page
+
+	* trunk/src/plugins/terminal/plugin.py: minor tidying, style
+	  changes
+
+2005-07-22 12:31 +0000 [r433]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/setup.py, trunk/src/plugins/terminal/plugin.py,
+	  trunk/src/firstrun.py: tidied terminal plugin code
+
+2005-07-21 22:09 +0000 [r432]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/gazpacho/plugin.py: updated gazpacho plugin to
+	  use the new format
+
+2005-07-21 21:42 +0000 [r431]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/project/plugin.py,
+	  trunk/src/plugins/buffer/plugin.py,
+	  trunk/src/plugins/terminal/plugin.py, trunk/src/plugin.py: fixed
+	  many callings of self.cb
+
+2005-07-21 21:16 +0000 [r430]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/boss/plugin.py, trunk/src/gtkextra.py,
+	  trunk/src/configuration/config.py: mass removal of self.cb all
+	  objects are now pidaobjects
+
+2005-07-21 20:55 +0000 [r429]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/python_profiler/plugin.py,
+	  trunk/src/plugins/culebra/edit.py,
+	  trunk/src/plugins/python_debugger/plugin.py,
+	  trunk/src/gtkextra.py, trunk/src/base.py,
+	  trunk/src/plugins/culebra/plugin.py, trunk/src/plugin.py: initial
+	  removing of all references to self.cb
+
+2005-07-21 20:30 +0000 [r428]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/firstrun.py: put first run window in centre of the
+	  screen
+
+2005-07-21 19:54 +0000 [r427]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/boss/plugin.py,
+	  trunk/src/plugins/vim/plugin.py, trunk/src/mainwindow.py: shift
+	  focus from pida to non-embedded vim
+
+2005-07-21 19:14 +0000 [r426]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/buffer/plugin.py,
+	  trunk/src/plugins/vim/plugin.py: shortcut to switch focus from
+	  vim to the buffer list
+
+2005-07-21 19:00 +0000 [r425]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/options.py: removed se command
+
+2005-07-21 18:58 +0000 [r424]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/src/firstrun.py: It seems!
+
+2005-07-21 18:57 +0000 [r423]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/buffer/plugin.py: buffer plugin to new object
+	  style
+
+2005-07-21 18:12 +0000 [r422]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/vim/vimembed.py,
+	  trunk/src/plugins/vim/plugin.py, trunk/src/plugins/vim/gdkvim.py:
+	  cim plugin moved completely to new style
+
+2005-07-21 18:06 +0000 [r421]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/python_browser/plugin.py: python browser
+	  completely to new style
+
+2005-07-21 18:02 +0000 [r420]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/project/plugin.py: moved project plugin
+	  completely to pidabase object style
+
+2005-07-21 17:55 +0000 [r419]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/project/plugin.py, trunk/src/mainwindow.py:
+	  moved project registry to pidaobject
+
+2005-07-21 17:50 +0000 [r418]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/base.py, trunk/src/mainwindow.py: fixed mainwindow
+	  calls to use the base object
+
+2005-07-21 17:42 +0000 [r417]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/TODO.txt, trunk/src/mainwindow.py: made
+	  the main window a pida object
+
+2005-07-21 16:08 +0000 [r416]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/culebra/edit.py,
+	  trunk/src/configuration/config.py,
+	  trunk/src/plugins/culebra/plugin.py: added culebra config option,
+	  and configure link from culebra menu
+
+2005-07-21 15:55 +0000 [r415]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/terminal/plugin.py: fixed browser button
+
+2005-07-21 15:50 +0000 [r414]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/options.py,
+	  trunk/src/plugins/boss/plugin.py, trunk/src/mainwindow.py: added
+	  status bar (optional) and action for status messages
+
+2005-07-21 15:46 +0000 [r413]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/edit.py: * removed statusbar in culebra
+
+2005-07-21 15:37 +0000 [r412]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/options.py, trunk/src/mainwindow.py: made
+	  terminal plugin appear optionally underneath the editor
+
+2005-07-21 15:31 +0000 [r411]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/edit.py: * Stop executing
+
+2005-07-21 15:30 +0000 [r409-410]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/terminal/plugin.py: made terminal a
+	  non-transient by default
+
+	* trunk/src/configuration/options.py,
+	  trunk/src/plugins/terminal/plugin.py: added killterminal event
+
+2005-07-21 15:17 +0000 [r407-408]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/culebra/edit.py: minor file-opening tweak
+
+	* trunk/src/plugins/culebra/edit.py,
+	  trunk/src/plugins/culebra/plugin.py: fixed open files in culebra
+
+2005-07-21 15:04 +0000 [r406]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/culebra/edit.py: fixed opening files
+
+2005-07-21 14:56 +0000 [r405]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/culebra/edit.py: fixed new file in culebra
+
+2005-07-21 14:51 +0000 [r404]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/culebra/edit.py: next buffer in culebra menu
+	  fixed
+
+2005-07-21 14:48 +0000 [r403]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/src/base.py,
+	  trunk/src/plugins/culebra/plugin.py: fixed base logging fixed
+	  culebra filetype
+
+2005-07-21 14:47 +0000 [r402]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/edit.py: * Added buffer menus
+
+2005-07-21 14:30 +0000 [r401]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/culebra/edit.py: fixed handling of new files
+
+2005-07-21 14:18 +0000 [r400]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/culebra/edit.py,
+	  trunk/src/plugins/culebra/plugin.py: fixed file closing
+
+2005-07-21 14:08 +0000 [r399]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/edit.py: * Bugs, and Bugs
+
+2005-07-21 14:01 +0000 [r398]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/src/base.py: fixed the main application
+	  class to be a pidaobject
+
+2005-07-21 13:49 +0000 [r397]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/culebra/plugin.py: fixed currentbuffer
+
+2005-07-21 13:44 +0000 [r396]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/culebra/edit.py,
+	  trunk/src/plugins/culebra/plugin.py: fixed buffer list for
+	  culebra
+
+2005-07-21 13:35 +0000 [r395]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/edit.py,
+	  trunk/src/plugins/culebra/plugin.py: * Some fixes, and more bugs
+
+2005-07-21 13:20 +0000 [r394]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/culebra/edit.py,
+	  trunk/src/plugins/boss/plugin.py,
+	  trunk/src/plugins/culebra/plugin.py: a few bits to culebra buffer
+	  list
+
+2005-07-21 13:10 +0000 [r393]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/edit.py, trunk/setup.py: * Added some
+	  ugly stuff, not stable yet
+
+2005-07-21 09:02 +0000 [r392]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/options.py,
+	  trunk/src/plugins/boss/plugin.py, trunk/src/debugwindow.py: added
+	  log and io to the debug window
+
+2005-07-21 01:47 +0000 [r391]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/firstrun.py (added): added firstrun wizard window
+
+2005-07-21 01:35 +0000 [r390]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py: first time run wizard
+
+2005-07-20 23:46 +0000 [r389]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/culebra/edit.py,
+	  trunk/src/plugins/boss/plugin.py,
+	  trunk/src/configuration/config.py: added config menu option to
+	  culebra, and ability to show config editor on a specific page
+
+2005-07-20 23:38 +0000 [r388]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/registry.py,
+	  trunk/src/plugins/boss/plugin.py,
+	  trunk/src/configuration/config.py: configuration documentation
+	  options
+
+2005-07-20 23:19 +0000 [r387]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/culebra/edit.py,
+	  trunk/src/plugins/culebra/plugin.py: moved config option to the
+	  correct place
+
+2005-07-20 23:13 +0000 [r386]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/culebra/edit.py,
+	  trunk/src/plugins/culebra/plugin.py: example config option for
+	  culebra
+
+2005-07-20 23:03 +0000 [r384-385]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/culebra/plugin.py: removed some debugging
+	  symbols
+
+	* trunk/src/plugins/culebra/edit.py,
+	  trunk/src/plugins/culebra/plugin.py: fixed bufferlist, bufferlist
+	  changing, and current buffer
+
+2005-07-20 22:32 +0000 [r383]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/edit.py: * Fixed bug in load_file
+
+2005-07-20 22:16 +0000 [r382]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/options.py, trunk/src/main.py,
+	  trunk/src/plugins/boss/plugin.py, trunk/CONTRIBUTORS.txt: fixed
+	  logging slightly. Still a problem Added gentoo ebuild to
+	  contributors
+
+2005-07-20 21:17 +0000 [r381]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/edit.py,
+	  trunk/src/plugins/culebra/plugin.py: * Biggest change in culebra,
+	  good bless us
+
+2005-07-20 01:26 +0000 [r380]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/project/plugin.py, trunk/src/gtkextra.py: fixed
+	  project editor to use file and folder buttons
+
+2005-07-19 22:10 +0000 [r379]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/edit.py: * Fixed error in save untitled
+	  file
+
+2005-07-19 22:06 +0000 [r378]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/edit.py: * fixed undo/redo
+
+2005-07-19 21:15 +0000 [r377]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py: better information when the editor fails to
+	  start
+
+2005-07-19 20:32 +0000 [r376]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/edit.py,
+	  trunk/src/plugins/culebra/plugin.py: * Fixed check mime problem
+	  for new files * Fixed autocompletion error when culebra don't
+	  identify a module
+
+2005-07-19 20:18 +0000 [r375]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/src/plugins/project/plugin.py: fixed
+	  tooltip to not say vim tidies main startup
+
+2005-07-19 19:54 +0000 [r374]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/TODO.txt, trunk/src/debugwindow.py
+	  (added): added debug window for unhandled exceptions
+
+2005-07-19 18:00 +0000 [r373]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/TODO.txt: updated todo
+
+2005-07-19 16:18 +0000 [r372]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/edit.py: * new structure for menus *
+	  added undo/redo in the ui
+
+2005-07-18 21:36 +0000 [r371]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/culebra/edit.py,
+	  trunk/src/plugins/culebra/plugin.py: culebra reacts to debugger
+	  frames
+
+2005-07-18 21:19 +0000 [r370]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/edit.py,
+	  trunk/src/plugins/python_debugger/plugin.py,
+	  trunk/src/plugins/culebra/plugin.py: * Debugger inside culebra
+
+2005-07-18 20:52 +0000 [r369]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/python_debugger/plugin.py: added a frame
+	  received event
+
+2005-07-18 18:36 +0000 [r368]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py: removed old argv snarfing for editor variable
+
+2005-07-18 18:31 +0000 [r367]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/registry.py,
+	  trunk/src/configuration/options.py,
+	  trunk/src/configuration/config.py: added a registry list type,
+	  which renders as a combo box
+
+2005-07-18 18:20 +0000 [r366]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/options.py, trunk/src/main.py: made the
+	  editor a configurable option
+
+2005-07-18 17:46 +0000 [r365]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/edit.py,
+	  trunk/src/plugins/python_debugger/plugin.py: * Added hotkeys for
+	  debugger
+
+2005-07-18 15:27 +0000 [r364]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/edit.py: * Fixed a bug in comment linem
+	  command
+
+2005-07-18 14:05 +0000 [r363]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/edit.py,
+	  trunk/src/plugins/culebra/plugin.py: * Added F5 Execute
+
+2005-07-18 13:21 +0000 [r362]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/words.py (added): *Module for
+	  retrieving words from a buffer
+
+2005-07-18 12:56 +0000 [r361]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/edit.py,
+	  trunk/src/plugins/culebra/plugin.py: * Added a lot of features
+	  during weekend.
+
+2005-07-17 22:49 +0000 [r360]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/terminal/plugin.py: added python shell button
+
+2005-07-15 19:57 +0000 [r359]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/edit.py: * Added duplicate line ctrl-d
+	  * Added delete line ctrl-y
+
+2005-07-15 19:18 +0000 [r358]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/edit.py: * Removed untitled.py from
+	  __init__ * Added comment/uncomment block ctrl-k shift-ctrl-k
+
+2005-07-15 00:59 +0000 [r357]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/edit.py,
+	  trunk/src/plugins/culebra/plugin.py: * Fixed classbrowser
+	  clicked, now move cursor to the right place in the buffer
+
+2005-07-15 00:44 +0000 [r356]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/edit.py: * Block identation, please
+	  test it! * Fixed place_cursor on check_mime_type.
+
+2005-07-14 15:21 +0000 [r355]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/importsTipper.py,
+	  trunk/src/plugins/culebra/edit.py: * Added support for local
+	  files/modules in autocompletion
+
+2005-07-14 14:35 +0000 [r354]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/options.py, trunk/src/mainwindow.py:
+	  added option to start maximized
+
+2005-07-14 14:25 +0000 [r353]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/TODO.txt: removed splash screen
+
+2005-07-14 00:16 +0000 [r352]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/src/configuration/registry.py,
+	  trunk/src/plugins/culebra/dialogs.py,
+	  trunk/extras/generate-api.py, trunk/src/plugins/culebra/edit.py,
+	  trunk/src/main.py, trunk/src/plugins/boss/plugin.py,
+	  trunk/src/plugins/project/plugin.py,
+	  trunk/src/plugins/project/__init__.py,
+	  trunk/src/plugins/boss/__init__.py,
+	  trunk/src/plugins/python_profiler/profiler.py,
+	  trunk/src/plugins/gazpacho/gazpachembed.py,
+	  trunk/extras/iconmaker.py, trunk/src/plugins/buffer/plugin.py,
+	  trunk/src/plugins/buffer/__init__.py,
+	  trunk/src/plugins/python_debugger/debugger.py,
+	  trunk/src/plugins/terminal/plugin.py,
+	  trunk/src/plugins/terminal/__init__.py,
+	  trunk/src/plugins/culebra/plugin.py,
+	  trunk/src/plugins/culebra/__init__.py,
+	  trunk/src/plugins/vim/gdkvim.py,
+	  trunk/src/configuration/options.py,
+	  trunk/src/plugins/python_profiler/plugin.py,
+	  trunk/src/plugins/python_profiler/__init__.py,
+	  trunk/src/plugins/python_debugger/plugin.py,
+	  trunk/src/plugins/python_debugger/__init__.py,
+	  trunk/src/configuration/__init__.py, trunk/src/base.py,
+	  trunk/src/plugins/vim/plugin.py,
+	  trunk/src/plugins/vim/__init__.py,
+	  trunk/src/configuration/config.py, trunk/src/mainwindow.py,
+	  trunk/src/plugins/culebra/importsTipper.py,
+	  trunk/src/plugins/__init__.py,
+	  trunk/src/plugins/pastebin/plugin.py,
+	  trunk/src/plugins/pastebin/__init__.py, trunk/src/gtkextra.py,
+	  trunk/src/gobjectreactor.py, trunk/src/plugin.py,
+	  trunk/src/__init__.py, trunk/src/plugins/emacs/emacs.py,
+	  trunk/src/plugins/python_browser/plugin.py,
+	  trunk/src/plugins/python_browser/__init__.py,
+	  trunk/src/plugins/vim/vimembed.py,
+	  trunk/src/plugins/emacs/plugin.py,
+	  trunk/src/plugins/emacs/__init__.py,
+	  trunk/src/plugins/gazpacho/plugin.py,
+	  trunk/src/plugins/gazpacho/__init__.py,
+	  trunk/src/plugins/shortcuts/plugin.py,
+	  trunk/src/plugins/shortcuts/__init__.py: Id keyword substitution
+	  stuff
+
+2005-07-13 22:15 +0000 [r351]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/edit.py: * Fixed buffer's refresh after
+	  close in culebra
+
+2005-07-13 22:08 +0000 [r350]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/setup.py: Testing keyword substitution
+
+2005-07-13 15:51 +0000 [r349]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/edit.py: * Added stock icons for
+	  autocompletion as a demo, TODO custom icons for different types
+
+2005-07-13 13:33 +0000 [r348]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/edit.py: * Added parameters to
+	  autocompletion.
+
+2005-07-13 02:01 +0000 [r347]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/edit.py: * Fixed pango problem with "_"
+	  char
+
+2005-07-13 01:49 +0000 [r346]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/edit.py: * Autocompletion for multiple
+	  levels.
+
+2005-07-13 00:25 +0000 [r345]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/src/plugins/gazpacho/gazpachembed.py:
+	  cleaned up main.py fixed minor gazpacho bugs
+
+2005-07-12 23:32 +0000 [r344]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/src/plugins/project/plugin.py,
+	  trunk/src/plugins/terminal/plugin.py: project plugin to new
+	  terminal format
+
+2005-07-12 22:58 +0000 [r343]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/edit.py: * Small bug fixed
+
+2005-07-12 22:49 +0000 [r342]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/importsTipper.py (added),
+	  trunk/src/plugins/culebra/edit.py: * Added autocompletion test,
+	  only works for a simple module try to typing something like: sys.
+	  or gtk.
+
+2005-07-12 22:28 +0000 [r341]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/src/gtkextra.py,
+	  trunk/src/mainwindow.py, trunk/src/plugins/shortcuts/plugin.py:
+	  removed application.tips
+
+2005-07-12 22:16 +0000 [r340]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/terminal/plugin.py: made vte really optional.
+	  Failed vte import automatically uses xterm
+
+2005-07-12 21:57 +0000 [r337-339]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/boss/plugin.py: gazpacho needs to be present
+	  for all files
+
+	* trunk/src/plugins/python_browser/plugin.py: project browser to
+	  use new terminal format
+
+	* trunk/src/gtkextra.py: fixed context popup calls to use the new
+	  terminal scheme
+
+2005-07-12 21:46 +0000 [r336]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/boss/plugin.py,
+	  trunk/src/plugins/project/plugin.py, trunk/src/gtkextra.py,
+	  trunk/src/plugins/terminal/plugin.py: use internal terminal
+	  emulator, or xterm as an option
+
+2005-07-12 19:16 +0000 [r335]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/project/plugin.py: removed new file from file
+	  browser
+
+2005-07-12 19:11 +0000 [r334]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/gazpacho/plugin.py: gazpacho plugin to use new
+	  base object style
+
+2005-07-12 18:59 +0000 [r333]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/README.txt: minor stylistic change
+
+2005-07-12 18:55 +0000 [r332]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/README.txt: a bit more for the bsd users
+
+2005-07-12 18:50 +0000 [r331]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/README.txt: python-vte instructions for FBSD
+
+2005-07-12 00:15 +0000 [r330]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/vim/vimembed.py,
+	  trunk/src/plugins/boss/plugin.py,
+	  trunk/src/plugins/vim/plugin.py, trunk/src/plugins/vim/gdkvim.py:
+	  process accounting
+
+2005-07-11 23:28 +0000 [r329]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/setup.py, trunk/data/pidalogo.png
+	  (added), trunk/src/mainwindow.py: splash screen
+
+2005-07-11 17:35 +0000 [r328]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/boss/plugin.py,
+	  trunk/src/plugins/project/plugin.py: migrated project plugin to
+	  new format
+
+2005-07-11 17:12 +0000 [r327]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/src/plugins/boss/plugin.py,
+	  trunk/src/plugins/vim/plugin.py, trunk/src/mainwindow.py: vim
+	  plugin to new base style quitting left to boss
+
+2005-07-11 16:58 +0000 [r325-326]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/pastebin/plugin.py: migrated pastebin to new
+	  format
+
+	* trunk/src/plugins/buffer/plugin.py: migrated buffer plugin to the
+	  new base class
+
+2005-07-11 16:41 +0000 [r324]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/buffer/plugin.py: removed second line of
+	  bufferlist display. I was running out of room on only 10-15
+	  buffers
+
+2005-07-11 16:34 +0000 [r323]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/src/plugins/boss/plugin.py,
+	  trunk/src/plugins/vim/plugin.py,
+	  trunk/src/plugins/culebra/plugin.py: moved configuration browser
+	  to boss plugin
+
+2005-07-11 16:26 +0000 [r321-322]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py: improved logging (it slightly works)
+
+	* trunk/src/plugins/culebra/edit.py,
+	  trunk/src/plugins/boss/plugin.py, trunk/src/base.py,
+	  trunk/src/plugins/culebra/plugin.py: filetype event for culebra.
+	  Fixed bad logging call.
+
+2005-07-11 15:41 +0000 [r320]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/boss/plugin.py: display current buffer on
+	  window bar
+
+2005-07-11 15:18 +0000 [r319]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/culebra/dialogs.py,
+	  trunk/src/plugins/culebra/edit.py: culebra is not MIT license.
+	  Thank-you very much.
+
+2005-07-11 14:59 +0000 [r317-318]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/culebra/plugin.py: fixed not calling culebra
+	  init
+
+	* trunk/src/plugins/terminal/plugin.py: removed embedded dillo
+
+2005-07-11 00:13 +0000 [r316]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/terminal/plugin.py: removed bad reference
+
+2005-07-10 23:52 +0000 [r315]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/python_browser/plugin.py, trunk/src/main.py,
+	  trunk/src/plugins/python_debugger/plugin.py,
+	  trunk/src/plugins/project/plugin.py,
+	  trunk/src/plugins/buffer/plugin.py, trunk/src/gtkextra.py,
+	  trunk/src/base.py, trunk/src/plugins/terminal/plugin.py: moved
+	  context menus to new object format
+
+2005-07-10 23:33 +0000 [r314]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/src/plugins/boss/plugin.py,
+	  trunk/src/gtkextra.py, trunk/src/base.py,
+	  trunk/src/mainwindow.py, trunk/src/plugin.py: moved icons over to
+	  new format
+
+2005-07-10 22:55 +0000 [r312-313]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugin.py: removed references to old tooltips
+
+	* trunk/src/main.py, trunk/src/plugins/boss/plugin.py,
+	  trunk/src/gtkextra.py, trunk/src/base.py: moved tooltips to the
+	  boss module
+
+2005-07-10 22:41 +0000 [r311]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/src/plugins/boss/plugin.py,
+	  trunk/src/base.py, trunk/src/mainwindow.py (added): moved main
+	  window to a separate module
+
+2005-07-10 22:02 +0000 [r310]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/src/plugins/pastebin/plugin.py,
+	  trunk/src/plugins/boss/plugin.py, trunk/src/gtkextra.py,
+	  trunk/src/base.py, trunk/src/plugins/shortcuts/plugin.py,
+	  trunk/src/plugin.py: starting to integrate new base class
+
+2005-07-10 21:26 +0000 [r309]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/base.py (added): beginings of a bas object class
+
+2005-07-10 21:19 +0000 [r308]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/shortcuts/plugin.py: preparing for move to new
+	  base object
+
+2005-07-10 21:10 +0000 [r307]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/src/plugins/boss/plugin.py: new logging
+	  methods
+
+2005-07-10 20:56 +0000 [r306]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugin.py: some convenience methods for retreiving gtk
+	  widgets
+
+2005-07-10 20:51 +0000 [r305]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/boss/plugin.py, trunk/src/plugin.py: prepared
+	  logging call for new log format
+
+2005-07-10 20:25 +0000 [r304]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/boss/plugin.py: removed uneeded methods
+
+2005-07-10 20:10 +0000 [r303]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/src/plugins/shortcuts/plugin.py:
+	  breakage level refactoring
+
+2005-07-10 18:36 +0000 [r302]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/terminal/plugin.py: removed mozilla embedding
+
+2005-07-10 14:37 +0000 [r301]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/src/plugins/boss/plugin.py: made plugin
+	  loading optional using the boss
+
+2005-07-10 14:25 +0000 [r299-300]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/boss/plugin.py: renamed the boss registry group
+	  to filetypes
+
+	* trunk/src/main.py, trunk/src/plugins/boss/plugin.py: a few
+	  refactorings to the new boss
+
+2005-07-10 10:31 +0000 [r298]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/src/plugins/python_profiler/plugin.py,
+	  trunk/src/plugins/python_browser/plugin.py, trunk/src/main.py,
+	  trunk/src/plugins/pastebin/plugin.py,
+	  trunk/src/plugins/python_debugger/plugin.py,
+	  trunk/src/plugins/boss/plugin.py,
+	  trunk/src/plugins/project/plugin.py,
+	  trunk/src/plugins/gazpacho/plugin.py, trunk/src/plugin.py:
+	  Functinoal filetype support! Wee. Still sucks, though.
+
+2005-07-10 07:11 +0000 [r297]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/buffer/plugin.py: replaced icons back on buffer
+	  list
+
+2005-07-10 06:53 +0000 [r296]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/buffer/plugin.py: more formatting to the
+	  bufferlist
+
+2005-07-10 06:21 +0000 [r295]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/src/__init__.py, trunk/src/plugins/boss (added),
+	  trunk/src/main.py, trunk/src/plugins/boss/plugin.py (added),
+	  trunk/src/plugins/boss/__init__.py (added), trunk/setup.py,
+	  trunk/src/plugins/vim/plugin.py, trunk/src/plugin.py:
+	  Not-quite-working filetype. Boss plugin
+
+2005-07-10 06:14 +0000 [r294]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/src/plugins/buffer/plugin.py: fixed
+	  refetching buffer when unecessary
+
+2005-07-10 05:53 +0000 [r293]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/terminal/plugin.py: removed reference to file
+
+2005-07-10 05:48 +0000 [r292]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/TODO.txt, trunk/src/plugins/terminal/plugin.py: todo
+
+2005-07-10 04:32 +0000 [r291]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/buffer/plugin.py: prettier buffer list
+
+2005-07-10 04:10 +0000 [r290]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/gtkextra.py, trunk/src/plugins/terminal/plugin.py:
+	  fixed disappearing mozillas
+
+2005-07-10 04:01 +0000 [r289]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/terminal/plugin.py,
+	  trunk/src/plugins/vim/plugin.py: fixed wrong shortcut call
+
+2005-07-10 01:40 +0000 [r288]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/terminal/plugin.py,
+	  trunk/src/plugins/vim/plugin.py: fixed bad shortcut lookup
+
+2005-07-10 01:28 +0000 [r287]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/src/plugins/terminal/plugin.py,
+	  trunk/src/plugins/shortcuts/plugin.py: fixed the shortcut editor
+
+2005-07-10 00:41 +0000 [r286]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/gtkextra.py, trunk/src/plugins/terminal/plugin.py:
+	  browser things
+
+2005-07-09 22:07 +0000 [r285]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/terminal/plugin.py: mozilla embedding
+
+2005-07-09 20:30 +0000 [r284]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/vim/plugin.py, trunk/src/plugins/vim/gdkvim.py:
+	  ability to map viusal mode keys too
+
+2005-07-09 20:13 +0000 [r283]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/pastebin/plugin.py,
+	  trunk/src/plugins/vim/plugin.py, trunk/src/plugins/vim/gdkvim.py:
+	  fixed a potentially evil bug in the way we parse messages and
+	  asynchronous messages. It seems that the spliting was losing any
+	  arguments received after a space, which is bad. This is fixed,
+	  and has enabled pasting the yanked text to the pastebin from vim
+	  using ,m as default.
+
+2005-07-09 18:18 +0000 [r282]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/pastebin/plugin.py: added a clear button, not
+	  ideal
+
+2005-07-09 18:13 +0000 [r281]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/pastebin/plugin.py: added support for #pida
+	  pastebin
+
+2005-07-09 17:49 +0000 [r280]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/pastebin/plugin.py: removed debugging symbols
+
+2005-07-09 17:45 +0000 [r278-279]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/pastebin (added),
+	  trunk/src/plugins/pastebin/plugin.py (added),
+	  trunk/src/plugins/pastebin/__init__.py (added): pastebin plugin
+	  initial import
+
+	* trunk/src/main.py, trunk/extras/iconmaker.data,
+	  trunk/data/icons.dat: new icons added threading initialization
+
+2005-07-09 13:34 +0000 [r277]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/src/plugins/vim/gdkvim.py: Added confirmation dialog when
+	  closing an unsaved buffer.
+
+2005-07-08 22:35 +0000 [r274-276]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/shortcuts/plugin.py: fixed wrong main window
+	  attribute call
+
+	* trunk/src/gtkextra.py: fixed wrong mainwindow attribute call
+
+	* trunk/CONTRIBUTORS.txt: update
+
+2005-07-08 21:42 +0000 [r273]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/src/plugins/python_browser/plugin.py,
+	  trunk/src/plugins/vim/plugin.py, trunk/src/plugin.py: Moved from
+	  pydoc to doc, for implementing the filetype thing.
+
+2005-07-08 21:21 +0000 [r272]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/vim/plugin.py, trunk/src/plugins/vim/gdkvim.py:
+	  added option grabbing from vim
+
+2005-07-08 20:15 +0000 [r271]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/emacs/emacs.py: This needs someone who doesn't
+	  hate emacs
+
+2005-07-08 16:45 +0000 [r270]  Fernando San Martín Woerner <>
+
+	* trunk/src/plugins/culebra/edit.py: * Remove Console menu * Some
+	  pep008 love...
+
+2005-07-08 15:54 +0000 [r269]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/CONTRIBUTORS.txt: Foo!
+
+2005-07-08 15:41 +0000 [r268]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/emacs/emacs.py: safer launching
+
+2005-07-08 15:27 +0000 [r267]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/emacs/emacs.py: added debugging
+
+2005-07-08 11:56 +0000 [r266]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/emacs/emacs.py,
+	  trunk/src/plugins/project/plugin.py,
+	  trunk/src/plugins/culebra/plugin.py: fixed incorrect transient
+	  window call
+
+2005-07-08 02:19 +0000 [r265]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/emacs/emacs.py: notice when emacs has died
+
+2005-07-08 02:13 +0000 [r264]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/emacs/emacs.py,
+	  trunk/src/plugins/emacs/plugin.py: start emacs automatically if
+	  it is not running
+
+2005-07-08 01:52 +0000 [r263]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/emacs/plugin.py: added ability to launch emacs
+
+2005-07-08 00:31 +0000 [r262]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/culebra/plugin.py: tried to get cursor moved
+
+2005-07-08 00:07 +0000 [r261]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/culebra/edit.py,
+	  trunk/src/plugins/culebra/plugin.py: removed tab labels
+
+2005-07-07 23:11 +0000 [r260]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/culebra/edit.py,
+	  trunk/src/plugins/culebra/plugin.py: fixed dialogs, fixed new
+	  file opening names, fixed buffer list and current buffer
+
+2005-07-07 22:05 +0000 [r259]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/culebra/plugin.py: culebra bufferlist
+
+2005-07-07 21:41 +0000 [r258]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/culebra/dialogs.py (added),
+	  trunk/src/plugins/culebra/edit.py (added), trunk/src/main.py,
+	  trunk/src/plugins/culebra (added),
+	  trunk/src/plugins/culebra/plugin.py (added),
+	  trunk/src/plugins/culebra/__init__.py (added): added initial
+	  culebra integration
+
+2005-07-07 20:34 +0000 [r257]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/vim/plugin.py: fixed bug due to bad
+	  foregrounding call
+
+2005-07-07 20:29 +0000 [r256]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/emacs/emacs.py, trunk/src/main.py,
+	  trunk/src/plugins/buffer/plugin.py,
+	  trunk/src/plugins/vim/plugin.py, trunk/src/plugins/vim/gdkvim.py:
+	  removed debugging symbols
+
+2005-07-07 20:14 +0000 [r255]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/emacs/emacs.py: fixed minor refreshing bugs to
+	  allow the buffer list to remain stable
+
+2005-07-07 19:48 +0000 [r254]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/emacs/emacs.py, trunk/src/main.py,
+	  trunk/src/plugins/emacs/plugin.py: close buffer support to emacs
+	  plugin
+
+2005-07-07 19:16 +0000 [r253]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/emacs/emacs.py,
+	  trunk/src/configuration/options.py, trunk/src/main.py,
+	  trunk/src/plugins/emacs/plugin.py,
+	  trunk/src/plugins/vim/plugin.py: temporary solution run "pida
+	  emacs" for emacs mode
+
+2005-07-07 17:39 +0000 [r252]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/src/plugins/vim/plugin.py: fixed trnk to
+	  still use vim
+
+2005-07-07 17:27 +0000 [r251]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/emacs/emacs.py (added), trunk/src/plugins/emacs
+	  (added), trunk/src/configuration/options.py, trunk/src/main.py,
+	  trunk/src/plugins/emacs/plugin.py (added),
+	  trunk/src/plugins/emacs/__init__.py (added),
+	  trunk/src/plugins/buffer/plugin.py,
+	  trunk/src/plugins/vim/plugin.py: some emacs integration starting
+	  to work
+
+2005-07-06 21:42 +0000 [r250]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/src/plugins/vim/plugin.py: minor changes
+	  in accordance with new editor interface
+
+2005-07-06 21:01 +0000 [r249]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/setup.py: updated after moving editor code
+
+2005-07-06 20:33 +0000 [r248]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/python_browser/plugin.py, trunk/src/vim
+	  (removed), trunk/src/main.py,
+	  trunk/src/plugins/python_debugger/plugin.py,
+	  trunk/src/plugins/project/plugin.py,
+	  trunk/src/plugins/vim/gazpachembed.py (removed),
+	  trunk/src/plugins/gazpacho/gazpachembed.py,
+	  trunk/src/plugins/buffer/plugin.py,
+	  trunk/src/plugins/vim/plugin.py,
+	  trunk/src/plugins/gazpacho/plugin.py,
+	  trunk/src/configuration/config.py,
+	  trunk/src/plugins/vim/gdkvim.py (added): abstracted out Vim
+
+2005-07-05 19:58 +0000 [r246-247]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/python_browser/plugin.py: proper fix for
+	  non-existant file in python browser
+
+	* trunk/src/plugins/python_browser/plugin.py: fixed python browser
+	  attempting to open non-existant file
+
+2005-07-05 12:21 +0000 [r245]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/TODO.txt, trunk/src/plugins/gazpacho/gazpachembed.py:
+	  updated todo palette expander srats expanded
+
+2005-07-05 12:15 +0000 [r243-244]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/project/plugin.py: fixed trying to go up from
+	  the / directory
+
+	* trunk/src/plugins/project/plugin.py: refresh button to project
+	  browser, and fixed bad refreshing at other times
+
+2005-07-05 11:50 +0000 [r242]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/TODO.txt: todo update
+
+2005-07-05 10:33 +0000 [r241]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/TODO.txt: small items
+
+2005-07-05 02:23 +0000 [r236-237]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/README.txt: Tpyo. Nothing to see here.
+
+	* trunk/README.txt: URL to bugreport for vte warning.
+
+2005-07-05 02:16 +0000 [r234-235]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/README.txt: typo
+
+	* trunk/README.txt: notes about known issues
+
+2005-07-05 00:43 +0000 [r233]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/setup.py: changed trove category to Beta
+
+2005-07-05 00:18 +0000 [r232]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/src/vim/gdkvim.py: Fixed opening of files with funky chars,
+	  escaped them. Ugly. For real this time. No, really. I mean it
+	  this time.
+
+2005-07-05 00:11 +0000 [r230-231]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/src/vim/gdkvim.py: Fixed opening of files with funky chars,
+	  escaped them. Ugly. For real this time.
+
+	* trunk/debian/python2.3-pida.docs,
+	  trunk/debian/python2.4-pida.docs: Fixed opening of files with
+	  funky chars, escaped them. Ugly.
+
+2005-07-04 23:35 +0000 [r229]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/gazpacho/plugin.py: removed filename space
+	  escaping
+
+2005-07-04 23:11 +0000 [r228]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/CONTRIBUTORS.txt: Further minor fixes on the contributors
+	  list
+
+2005-07-04 17:17 +0000 [r226]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/CONTRIBUTORS.txt: minor CONTRIBUTORS.txt fixing
+
+2005-07-04 16:10 +0000 [r225]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/gazpacho/gazpachembed.py,
+	  trunk/src/plugins/gazpacho/plugin.py: signal handler callbacks
+	  have a sensible set of default arguments
+
+2005-07-04 13:08 +0000 [r224]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/CONTRIBUTORS.txt: spelling error
+
+2005-07-04 13:03 +0000 [r223]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/CONTRIBUTORS.txt (added): added contributers file
+
+2005-07-04 12:50 +0000 [r222]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/CHANGELOG.txt, trunk/setup.py: changelog for 0.2.1 version
+	  for 0.2.1
+
+2005-07-03 21:32 +0000 [r221]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/TODO.txt: updated todo
+
+2005-07-03 17:37 +0000 [r220]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/terminal/plugin.py, trunk/src/plugin.py: call
+	  present() on detached window to raise it
+
+2005-07-03 16:31 +0000 [r219]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/src/gtkextra.py, trunk/src/plugins/terminal/plugin.py:
+	  Added option to allow detached window to stay behind main PIDA
+	  window.
+
+2005-07-03 13:47 +0000 [r218]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/vim/plugin.py: renamed server plugin to Vim
+
+2005-07-03 13:42 +0000 [r217]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py: changed default sizes for embedded and
+	  non-embedded modes
+
+2005-07-03 13:38 +0000 [r216]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/vim/plugin.py: informative message for users
+	  when switching from embedded to non-embedded mode
+
+2005-07-03 13:34 +0000 [r215]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/src/plugins/vim/plugin.py: fixed
+	  non-embedded mode to not add a pane for vim if not-embedded
+
+2005-07-03 12:47 +0000 [r214]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/TODO.txt,
+	  trunk/src/plugins/vim/plugin.py: main slider shrinks when vim is
+	  closed in embedded mode
+
+2005-07-03 11:56 +0000 [r213]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/vim/gdkvim.py: removed loud debugging
+
+2005-07-03 11:42 +0000 [r212]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/vim/gdkvim.py: added loud debugging
+
+2005-07-03 11:14 +0000 [r211]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/vim/gdkvim.py: fixed hidden vim instance to use Gvim in
+	  non-console mode
+
+2005-07-02 17:11 +0000 [r210]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py: potential fix for logging call in python2.3
+
+2005-07-01 22:38 +0000 [r209]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/TODO.txt, trunk/TODO.Debian (removed), trunk/README.txt:
+	  Minor documentation changes, added some plugins that should be
+	  done (TODO), removed Debian TODO.
+
+2005-07-01 22:36 +0000 [r208]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/gazpacho/gazpachembed.py: minor tidy
+
+2005-07-01 22:32 +0000 [r207]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/gazpacho/gazpachembed.py,
+	  trunk/src/plugins/gazpacho/plugin.py: inform user that they must
+	  save their glade file before adding automatic callbacks
+
+2005-07-01 22:14 +0000 [r206]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/registry.py,
+	  trunk/src/configuration/options.py, trunk/src/main.py,
+	  trunk/src/configuration/config.py: fixed config integer support
+	  and log levels for python logger
+
+2005-07-01 21:44 +0000 [r205]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/TODO.txt, trunk/src/plugins/project/plugin.py: filled out
+	  remaining vcs commands
+
+2005-07-01 21:33 +0000 [r203-204]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/TODO.txt: updated
+
+	* trunk/src/main.py, trunk/src/plugins/vim/vimembed.py,
+	  trunk/src/plugins/vim/plugin.py, trunk/src/vim/gdkvim.py: removed
+	  debugging calls
+
+2005-07-01 21:19 +0000 [r202]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py: use python's logging module
+
+2005-07-01 21:07 +0000 [r201]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/gazpacho/gazpachembed.py,
+	  trunk/src/plugins/gazpacho/plugin.py: better callback integration
+
+2005-07-01 19:01 +0000 [r200]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/gazpacho/gazpachembed.py,
+	  trunk/src/plugins/gazpacho/plugin.py: fixed gazpacho plugin for
+	  0.5.3
+
+2005-07-01 18:07 +0000 [r199]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/gazpacho/gazpachembed.py,
+	  trunk/src/plugins/gazpacho/plugin.py: gazpacho automatic
+	  callbacks
+
+2005-07-01 14:22 +0000 [r198]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/debian/control, trunk/debian/control.in: Added gazpancho
+	  Suggests, move bicyclerepair and python-profiler to Recommends:
+
+2005-07-01 14:15 +0000 [r197]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/gazpacho/gazpachembed.py: fixed failed gazpacho
+	  import
+
+2005-07-01 05:48 +0000 [r196]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py: errors on importing plugins do not break pida
+
+2005-07-01 05:30 +0000 [r195]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/TODO.txt: todo list for 0.3
+
+2005-06-30 21:37 +0000 [r194]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/gazpacho/gazpachembed.py,
+	  trunk/src/plugins/vim/plugin.py: removed old gazpacho from vim
+	  plugin
+
+2005-06-30 20:19 +0000 [r193]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/gazpacho/gazpachembed.py: removed il10n
+
+2005-06-30 18:40 +0000 [r192]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/gazpacho/gazpachembed.py: fixed the selector
+	  button to use the selctor button from the palette
+
+2005-06-30 18:04 +0000 [r191]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/gazpacho/gazpachembed.py: fixed failed gazpacho
+	  import
+
+2005-06-30 15:24 +0000 [r190]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/options.py, trunk/src/main.py,
+	  trunk/src/plugins/gazpacho/gazpachembed.py,
+	  trunk/src/plugins/vim/plugin.py: optional vertical splitting
+	  optional serverlist hiding
+
+2005-06-30 09:56 +0000 [r189]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/gazpacho/gazpachembed.py: fixed all the dialogs
+	  to open as transients for the pida window
+
+2005-06-30 09:45 +0000 [r188]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/gazpacho/gazpachembed.py,
+	  trunk/extras/iconmaker.data,
+	  trunk/src/plugins/gazpacho/plugin.py, trunk/data/icons.dat:
+	  further integrated gazpacho toolbar into plugin toolbar. Fixed
+	  undo-redo sensitivity.
+
+2005-06-29 21:08 +0000 [r187]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/gazpacho/gazpachembed.py,
+	  trunk/src/plugins/gazpacho/plugin.py: gradually integrating
+	  gazpacho buttons into pida
+
+2005-06-29 20:34 +0000 [r186]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/extras/iconmaker.data,
+	  trunk/src/plugins/gazpacho/plugin.py, trunk/data/icons.dat: icons
+	  for gazpacho plugin
+
+2005-06-29 20:16 +0000 [r185]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/gazpacho/plugin.py: button to inform users how
+	  to start gazpacho
+
+2005-06-29 20:08 +0000 [r184]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/gazpacho (added),
+	  trunk/src/plugins/gazpacho/gazpachembed.py (added),
+	  trunk/src/plugins/gazpacho/plugin.py (added),
+	  trunk/src/plugins/gazpacho/__init__.py (added): added gazpacho
+	  embedding
+
+2005-06-29 19:44 +0000 [r183]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/src/plugins/vim/vimembed.py,
+	  trunk/src/plugins/vim/plugin.py: pida doesn't fail when vim
+	  doesn't exist
+
+2005-06-29 18:11 +0000 [r182]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/src/plugins/vim/gazpachembed.py:
+	  gazpacho is now a plugin
+
+2005-06-29 14:40 +0000 [r181]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/src/plugins/vim/gazpachembed.py (added),
+	  trunk/src/plugins/vim/plugin.py: embedded the ui designer
+	  gazpacho
+
+2005-06-29 02:30 +0000 [r179-180]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/options.py: split the library path a
+	  maximum of once
+
+	* trunk/src/configuration/options.py, trunk/setup.py: guesses for
+	  the prefix/share/pida directory
+
+2005-06-29 01:50 +0000 [r178]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/setup.py: install icons under sys.prefix
+
+2005-06-29 01:47 +0000 [r177]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/src/plugins/project/plugin.py: Fixed starting terminal in
+	  CWD project
+
+2005-06-29 01:17 +0000 [r176]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/registry.py: added more informative
+	  exception
+
+2005-06-28 22:28 +0000 [r175]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/options.py: removed the old registry
+	  stuff from the default options module
+
+2005-06-28 22:20 +0000 [r174]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py: removed debugging output
+
+2005-06-28 22:11 +0000 [r173]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/registry.py, trunk/TODO.txt: realistic
+	  todo registry tidied
+
+2005-06-28 20:32 +0000 [r172]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/registry.py: command line configuration
+	  options are -c --config
+
+2005-06-28 20:08 +0000 [r170-171]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/gtkextra.py: ficed empty return value on popup
+	  generation
+
+	* trunk/src/plugins/project/plugin.py: cersion control icons on
+	  version control command terminal tabs
+
+2005-06-28 20:02 +0000 [r169]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/gtkextra.py, trunk/src/plugins/terminal/plugin.py:
+	  terminal tab icon reflects terminal application for some things
+
+2005-06-28 19:48 +0000 [r168]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/python_browser/plugin.py,
+	  trunk/src/plugins/terminal/plugin.py,
+	  trunk/src/plugins/vim/plugin.py,
+	  trunk/src/plugins/shortcuts/plugin.py: fixed not calling for
+	  value() with new registyr stuff
+
+2005-06-28 19:27 +0000 [r167]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/terminal/plugin.py: removed log terminal, it is
+	  useless
+
+2005-06-28 18:55 +0000 [r166]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/registry.py,
+	  trunk/src/configuration/options.py,
+	  trunk/src/configuration/config.py: integer config type with a
+	  up-down button thingy on the config editor
+
+2005-06-28 18:33 +0000 [r165]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/registry.py,
+	  trunk/src/plugins/terminal/plugin.py: support for files, folders,
+	  and fonts widgets in the conifg editor
+
+2005-06-28 18:29 +0000 [r164]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/registry.py,
+	  trunk/src/plugins/terminal/plugin.py: added colour widget support
+	  for configuration
+
+2005-06-28 18:21 +0000 [r163]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/registry.py, trunk/src/main.py,
+	  trunk/TODO.txt, trunk/src/plugins/vim/plugin.py: removed unwanted
+	  space in config group name
+
+2005-06-28 18:11 +0000 [r162]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/registry.py,
+	  trunk/src/configuration/options.py, trunk/src/main.py: fixed
+	  default config file location, and directory
+
+2005-06-28 17:58 +0000 [r161]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/src/plugins/vim/plugin.py,
+	  trunk/src/plugin.py: support for invisible plugins, by setting
+	  the VISIBLE class attribute to False
+
+2005-06-28 17:52 +0000 [r159-160]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/vim/plugin.py: evil bug with space in registry
+	  group name fixed
+
+	* trunk/src/plugins/vim/plugin.py: fixed copy paste error. Much
+	  thanks to gcbirzan for his caring attention and for never
+	  whining.OB
+
+2005-06-28 17:30 +0000 [r158]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/python_browser/plugin.py,
+	  trunk/src/plugins/vim/plugin.py: fixed a few more booleans to the
+	  new registry style
+
+2005-06-28 17:23 +0000 [r157]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/project/plugin.py: changed file-exclude boolean
+	  to be a real boolean
+
+2005-06-28 17:12 +0000 [r156]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/registry.py,
+	  trunk/src/configuration/config.py: config editor works now, over
+	  to new registry style
+
+2005-06-28 16:30 +0000 [r155]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/src/plugins/terminal/plugin.py:
+	  attribute implementation
+
+2005-06-28 14:30 +0000 [r154]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/python_browser/plugin.py, trunk/src/main.py,
+	  trunk/src/plugins/python_debugger/plugin.py,
+	  trunk/src/plugins/project/plugin.py: new options starting to
+	  properly work
+
+2005-06-28 14:10 +0000 [r153]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/registry.py,
+	  trunk/src/configuration/options.py, trunk/src/main.py,
+	  trunk/src/gtkextra.py, trunk/src/plugins/terminal/plugin.py,
+	  trunk/src/plugins/vim/plugin.py, trunk/src/vim/gdkvim.py,
+	  trunk/src/plugins/shortcuts/plugin.py, trunk/src/plugin.py: new
+	  registry in place, actually boots (!) massive changes happening
+
+2005-06-28 12:54 +0000 [r151-152]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugin.py: populate event for plugins
+
+	* trunk/src/main.py: basic startup routine
+
+2005-06-28 12:43 +0000 [r150]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugin.py: plugin configure method
+
+2005-06-28 12:30 +0000 [r149]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/registry.py,
+	  trunk/src/configuration/options.py: changed a few options to the
+	  new style
+
+2005-06-28 03:07 +0000 [r148]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/registry.py, trunk/src/main.py: dummy
+	  object for moving to the new registry
+
+2005-06-28 02:41 +0000 [r147]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/registry.py (added): a starting point for
+	  the new registry
+
+2005-06-26 15:45 +0000 [r146]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/vim/gdkvim.py, trunk/src/gobjectreactor.py: tidied, and
+	  copyright
+
+2005-06-26 15:15 +0000 [r145]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/src/configuration/options.py: Added _darcs to default
+	  ignore pattern.
+
+2005-06-25 19:05 +0000 [r144]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/__init__.py: version number for 0.2.0
+
+2005-06-25 15:51 +0000 [r143]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/src/plugins/vim/plugin.py: removed
+	  geometry saving and loading. It is evil
+
+2005-06-25 15:34 +0000 [r142]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/vim/gdkvim.py: minor refactorings and docstrings
+
+2005-06-25 13:03 +0000 [r141]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/vim/gdkvim.py: checks accurately whether the hidden vim
+	  instance is still alive.
+
+2005-06-25 12:17 +0000 [r140]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/vim/gdkvim.py: checking hidden vim is alive doesn't
+	  work, so we don't do it
+
+2005-06-25 01:03 +0000 [r139]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/vim/gdkvim.py: hidden instance of vim does the dirty
+	  unreliable work. Much better than blocking on executing vim each
+	  time. In fact, we can do it about 10 times as often.
+
+2005-06-25 00:33 +0000 [r138]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/vim/plugin.py, trunk/src/vim/gdkvim.py:
+	  replaced calling a shell command with a devious hidden vim
+	  instance on a pty
+
+2005-06-24 23:44 +0000 [r137]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/src/plugins/vim/plugin.py,
+	  trunk/src/configuration/config.py, trunk/src/vim/gdkvim.py: all
+	  serverlist calls are now asynchronous
+
+2005-06-24 23:17 +0000 [r136]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/buffer/plugin.py: fixed the non-refreshing
+	  buffer on closing help-files
+
+2005-06-24 23:09 +0000 [r135]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/buffer/plugin.py,
+	  trunk/src/plugins/vim/plugin.py: added "disconnected" event for
+	  when there are no remaining vims to connect to
+
+2005-06-24 22:48 +0000 [r134]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/options.py,
+	  trunk/src/plugins/vim/plugin.py: removed the startup connect
+	  option, since it is useless.
+
+2005-06-24 22:43 +0000 [r133]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/options.py: boolean option for whether to
+	  shutdown with Vim in embedded mode.
+
+2005-06-24 22:39 +0000 [r132]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/vim/plugin.py: optional shutdown with vim
+
+2005-06-24 22:34 +0000 [r131]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/buffer/plugin.py,
+	  trunk/src/plugins/vim/plugin.py, trunk/src/vim/gdkvim.py: detect
+	  vim shutting down, and immediately connect to the next available
+	  server. Should gelp the vim shutdown bug. Also :q in embedded
+	  vims shuts pida down.
+
+2005-06-24 21:21 +0000 [r130]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/vim/gdkvim.py: slowed down serverlist refresh rate.
+	  People in a hurry can press the refresh button
+
+2005-06-24 17:48 +0000 [r129]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/options.py, trunk/src/vim/gdkvim.py:
+	  checks shell serverlist less frequntly and only when required
+
+2005-06-24 02:12 +0000 [r128]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/python_debugger/debugger.py,
+	  trunk/src/vim/gdkvim.py, trunk/src/gobjectreactor.py: fixed
+	  serverlist event only on serverlist changing
+
+2005-06-24 01:42 +0000 [r127]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/python_debugger/plugin.py,
+	  trunk/src/plugins/python_debugger/debugger.py,
+	  trunk/src/gobjectreactor.py: debugger and profiler new ipc
+	  framework
+
+2005-06-24 01:10 +0000 [r126]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/options.py,
+	  trunk/src/plugins/python_profiler/plugin.py,
+	  trunk/src/plugins/python_profiler/profiler.py,
+	  trunk/src/gobjectreactor.py: debugger to use new ipc framework
+
+2005-06-24 00:32 +0000 [r125]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/project/plugin.py, trunk/src/gobjectreactor.py
+	  (added): svn add
+
+2005-06-23 21:16 +0000 [r124]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py: geometry now works, fairly well
+
+2005-06-23 20:09 +0000 [r123]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/options.py, trunk/src/main.py: geometry
+	  saving and loading
+
+2005-06-23 19:03 +0000 [r122]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/options.py,
+	  trunk/src/plugins/python_browser/plugin.py, trunk/src/main.py,
+	  trunk/src/plugins/vim/vimembed.py,
+	  trunk/src/plugins/project/plugin.py,
+	  trunk/src/plugins/vim/plugin.py, trunk/src/vim/gdkvim.py,
+	  trunk/src/plugin.py: geometry, and fixed bufferexecute bug
+
+2005-06-23 17:24 +0000 [r121]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/project/plugin.py: added cv s commit
+
+2005-06-23 16:52 +0000 [r120]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/project/plugin.py, trunk/extras/iconmaker.data,
+	  trunk/data/icons.dat: new icons for diff and resolve
+
+2005-06-23 16:17 +0000 [r119]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/project/plugin.py, trunk/extras/iconmaker.data,
+	  trunk/data/icons.dat: new vcs icons
+
+2005-06-23 16:03 +0000 [r118]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/src/plugins/project/plugin.py: Missing space from svn
+	  diff's tooltip.
+
+2005-06-23 15:56 +0000 [r117]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/data/icons.dat: slightly different icon
+
+2005-06-23 15:52 +0000 [r116]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/src/plugins/project/plugin.py: svn diff/resolved working.
+	  Broken icons.
+
+2005-06-23 15:49 +0000 [r114-115]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/project/plugin.py: new example commit button
+
+	* trunk/extras/iconmaker.data, trunk/src/plugins/vim/plugin.py,
+	  trunk/data/icons.dat: new icon
+
+2005-06-23 15:37 +0000 [r113]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py: to use the new serverlist functions
+
+2005-06-23 15:33 +0000 [r112]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/vim/gdkvim.py: refactored serverlist getting, much more
+	  solid now
+
+2005-06-23 15:23 +0000 [r111]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/TODO.txt: tabs
+
+2005-06-22 21:10 +0000 [r109-110]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/project/plugin.py: minor refactorings
+
+	* trunk/src/configuration/config.py: fixed small bug in type
+	  getting
+
+2005-06-22 20:51 +0000 [r108]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/project/plugin.py: removed unwanted class
+
+2005-06-22 20:35 +0000 [r107]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/project/plugin.py: full refactor of project
+	  plugin
+
+2005-06-22 19:14 +0000 [r106]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/TODO.txt, trunk/src/plugins/project/plugin.py,
+	  trunk/src/gtkextra.py, trunk/src/configuration/config.py: brand
+	  shiny new project browser
+
+2005-06-22 03:00 +0000 [r105]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/src/plugins/project/plugin.py, trunk/debian/changelog:
+	  Don't reset the tree when opening a file outside the CWD, almost
+	  working (CWD is not set in the Current Directory project's path,
+	  unless that is the currently selected project)
+
+2005-06-22 00:02 +0000 [r103-104]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/gtkextra.py: Proper bug fix for bad atom names in GTK
+	  2.4
+
+	* trunk/README.txt: Correct upgrade instructions.
+
+2005-06-21 20:14 +0000 [r102]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/src/plugins/__init__.py, trunk/extras/generate-api.py,
+	  trunk/src/main.py, trunk/src/plugins/project/plugin.py,
+	  trunk/src/plugins/project/__init__.py,
+	  trunk/src/plugins/python_profiler/profiler.py,
+	  trunk/extras/iconmaker.py, trunk/src/plugins/buffer/plugin.py,
+	  trunk/src/plugins/buffer/__init__.py, trunk/src/gtkextra.py,
+	  trunk/src/plugins/python_debugger/debugger.py,
+	  trunk/src/plugins/terminal/plugin.py,
+	  trunk/src/plugins/terminal/__init__.py, trunk/src/plugin.py,
+	  trunk/src/__init__.py,
+	  trunk/src/plugins/python_profiler/plugin.py,
+	  trunk/src/configuration/options.py,
+	  trunk/src/plugins/python_profiler/__init__.py,
+	  trunk/src/plugins/python_browser/plugin.py,
+	  trunk/src/plugins/vim/vimembed.py,
+	  trunk/src/plugins/python_debugger/plugin.py,
+	  trunk/src/plugins/python_browser/__init__.py,
+	  trunk/src/plugins/python_debugger/__init__.py,
+	  trunk/src/configuration/__init__.py, trunk/setup.py,
+	  trunk/src/plugins/vim/plugin.py,
+	  trunk/src/plugins/vim/__init__.py, trunk/src/vim/gdkvim.py,
+	  trunk/src/configuration/config.py,
+	  trunk/src/plugins/shortcuts/plugin.py,
+	  trunk/src/plugins/shortcuts/__init__.py: Added Python source code
+	  encoding tag (See PEP 0263), added VIM modelines.
+
+2005-06-21 19:39 +0000 [r101]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/CHANGELOG.txt, trunk/src/gtkextra.py: possible fix for
+	  unscriptable object window event atom hint
+
+2005-06-21 18:53 +0000 [r100]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/python_debugger/debugger.py: took out
+	  unnecessary imports
+
+2005-06-21 18:42 +0000 [r99]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/project/plugin.py: removed literal tab
+
+2005-06-21 18:31 +0000 [r98]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/src/configuration/options.py, trunk/debian/control,
+	  trunk/src/plugins/project/plugin.py, trunk/debian/control.in:
+	  Added excluding files from tree view list
+
+2005-06-21 18:30 +0000 [r97]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/__init__.py,
+	  trunk/src/plugins/buffer/plugin.py, trunk/setup.py: buffer plugin
+	  refactorings
+
+2005-06-20 13:25 +0000 [r95]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/debian/python2.3-pida.docs (added),
+	  trunk/debian/python2.4-pida.docs (added), trunk/debian/docs
+	  (removed): Humph. Adding per package .docs, removing general one.
+
+2005-06-20 12:03 +0000 [r93]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/buffer/plugin.py,
+	  trunk/src/plugins/python_debugger/debugger.py: very strange bug
+	  detected with pida dopping vim connection sometimes, means needs
+	  buffer list reloading.
+
+2005-06-20 11:39 +0000 [r92]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/python_debugger/plugin.py: fixed debugger font
+	  to use default terminal font
+
+2005-06-20 11:26 +0000 [r91]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/debian/control, trunk/debian/rules: Debian packaging: Silly
+	  distutils. Fixing clean target.
+
+2005-06-20 11:07 +0000 [r90]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/project/plugin.py: fixed bug in loading of
+	  projects data file
+
+2005-06-20 10:54 +0000 [r88]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/CHANGELOG.txt: changelog for 0.2.0
+
+2005-06-20 10:49 +0000 [r87]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/debian/control, trunk/TODO.Debian, trunk/debian/changelog:
+	  Readied Debian packaging for 0.2.0 release. Tried to get package
+	  to automagically work on Ubuntu.
+
+2005-06-20 10:45 +0000 [r86]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/__init__.py, trunk/src/configuration/options.py,
+	  trunk/setup.py: version numbers for 0.2.0
+
+2005-06-20 08:43 +0000 [r85]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/src/plugins/vim/vimembed.py,
+	  trunk/src/plugins/vim/plugin.py, trunk/src/vim/gdkvim.py: Attempt
+	  to shut vim down cleanly on exit, and removed debugging symbols
+
+2005-06-20 07:58 +0000 [r84]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/project/plugin.py: Fixed project plugin to not
+	  fail on erroneous data
+
+2005-06-20 07:48 +0000 [r83]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/shortcuts/plugin.py: Fixed the loading of
+	  shortcut settings to not fail on erroneous data.
+
+2005-06-19 17:37 +0000 [r82]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/debian/control, trunk/debian/control.in: Added Replaces:,
+	  Provides: and Conflicts: for old pida package
+
+2005-06-19 17:30 +0000 [r81]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/debian/control, trunk/debian/python2.3-pida.menu (added),
+	  trunk/debian/python2.4-pida.menu (added), trunk/debian/menu
+	  (removed), trunk/debian/control.in: First semi-working attempt at
+	  a multiple Python version package.
+
+2005-06-19 17:21 +0000 [r80]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/options.py: Fixed the configuration
+	  loading to fall back to defaults.
+
+2005-06-19 17:06 +0000 [r79]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/__init__.py,
+	  trunk/src/plugins/python_debugger/plugin.py: Updated version
+	  numbers in preparation for 0.1.8
+
+2005-06-19 16:44 +0000 [r78]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/project/plugin.py: Removed unused method.
+
+2005-06-19 15:09 +0000 [r77]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/__init__.py, trunk/src/configuration/options.py,
+	  trunk/src/main.py: Backs up config file on upgrade
+
+2005-06-19 14:59 +0000 [r76]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/__init__.py, trunk/src/configuration/options.py,
+	  trunk/src/plugins/python_browser/plugin.py: updated version
+	  number
+
+2005-06-19 11:28 +0000 [r75]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/config.py: ConfigEditor documentation.
+
+2005-06-19 11:13 +0000 [r74]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/config.py: iDocumentation of
+	  ConfigBoolean class.
+
+2005-06-19 11:08 +0000 [r73]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/config.py: ConfigEntry Documentation
+
+2005-06-19 11:02 +0000 [r72]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/config.py: Started documenting the
+	  ConfigWidget class.
+
+2005-06-19 10:49 +0000 [r71]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py: Minor refactoring of add_plugin method
+
+2005-06-19 10:39 +0000 [r70]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py: Quit handler documentation.
+
+2005-06-19 10:28 +0000 [r69]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py: Added global keypress handler.
+
+2005-06-19 01:08 +0000 [r68]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/extras/generate-api.py: Modified inner function indent
+	  level.
+
+2005-06-18 21:45 +0000 [r67]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/extras/generate-api.py: docstring
+
+2005-06-18 18:22 +0000 [r66]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/extras/generate-api.py: slight formatting modification
+
+2005-06-18 16:54 +0000 [r65]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/extras/generate-api.py (added), trunk/src/gtkextra.py: api
+	  documentation generator
+
+2005-06-17 15:30 +0000 [r64]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/TODO.txt, trunk/CHANGELOG.txt, trunk/setup.py,
+	  trunk/src/plugin.py: added upgrade option to setup script
+
+2005-06-17 08:49 +0000 [r63]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/gtkextra.py, trunk/src/plugins/shortcuts/plugin.py,
+	  trunk/src/plugin.py: added string context
+
+2005-06-17 08:33 +0000 [r62]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/gtkextra.py,
+	  trunk/src/plugins/python_debugger/debugger.py,
+	  trunk/src/plugin.py: debugger is a much saner subclass of the
+	  Python debugger
+
+2005-06-16 23:46 +0000 [r61]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugin.py: added list of main events, still not
+	  exhaustive
+
+2005-06-16 23:28 +0000 [r60]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugin.py: docstrings and minor refactorings
+
+2005-06-16 23:01 +0000 [r59]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/python_debugger/plugin.py,
+	  trunk/src/plugins/terminal/plugin.py, trunk/src/plugin.py: fixed
+	  imports from gtkextra
+
+2005-06-16 22:50 +0000 [r57-58]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py: changes method parameter names to be more
+	  instructive
+
+	* trunk/src/main.py: comments, docstrings, and minor internal
+	  refactorings.
+
+2005-06-16 21:40 +0000 [r56]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py: renamed App to Application, commented, and
+	  improved documentation strings.
+
+2005-06-16 21:13 +0000 [r55]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/src/plugins/buffer/plugin.py: long line
+
+2005-06-16 21:06 +0000 [r54]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/options.py, trunk/src/main.py: removed
+	  long line
+
+2005-06-16 20:38 +0000 [r53]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/src/configuration/config.py,
+	  trunk/src/plugins/shortcuts/plugin.py: removed extraneous methods
+	  from application
+
+2005-06-16 20:30 +0000 [r52]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py: automatic loading plugins from a list
+
+2005-06-16 20:21 +0000 [r51]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py: now a single main window class
+
+2005-06-16 20:03 +0000 [r49-50]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/options.py, trunk/src/main.py: changed
+	  config variable name to name of plugin
+
+	* trunk/src/configuration/options.py, trunk/src/main.py: changed
+	  configuration names to those of plugins
+
+2005-06-16 19:29 +0000 [r48]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/gtkextra.py: added fnmatch import for globbing
+
+2005-06-16 19:25 +0000 [r46-47]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/options.py: tidied
+
+	* trunk/src/gtkextra.py: tidy
+
+2005-06-16 19:12 +0000 [r45]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/configuration/options.py: fixed bad import
+
+2005-06-16 19:09 +0000 [r44]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/src/configuration/__init__.py (added),
+	  trunk/src/vim/__init__.py (added): Added __init__.pys to
+	  configuration/ and vim/ so one can import from them.
+
+2005-06-16 19:03 +0000 [r43]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/main.py, trunk/setup.py: fixed plugin import directory,
+	  and automatic plugin package creation
+
+2005-06-16 18:47 +0000 [r40-42]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/scripts/pida: import the correct module
+
+	* trunk/scripts/pida: changed run script
+
+	* trunk/src/gtkipc.py (removed),
+	  trunk/src/plugins/python_profiler/plugin.py,
+	  trunk/src/plugins/python_debugger/plugin.py,
+	  trunk/src/plugins/python_profiler/profiler.py,
+	  trunk/src/gtkextra.py,
+	  trunk/src/plugins/python_debugger/debugger.py: moved ipc into gtk
+	  extra
+
+2005-06-16 18:43 +0000 [r39]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/TODO.Debian (added), trunk/debian/TODO (removed),
+	  trunk/debian/docs: Debian packaging: got the Debian TODO to
+	  install with the right name
+
+2005-06-16 18:38 +0000 [r38]  George Cristian Bîrzan <gcbirzan@wolfheart.ro>
+
+	* trunk/debian/control, trunk/debian/TODO (added),
+	  trunk/debian/control.in, trunk/debian/changelog,
+	  trunk/debian/rules: debian packaging: merged changes from latest
+	  CVS, fixed upstream changelog install, added TODO list
+
+2005-06-16 18:33 +0000 [r36-37]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/src (removed), trunk/src/gtkipc.py (added): file
+	  movements
+
+	* trunk/src/plugins/__init__.py (added), trunk/src/main.py (added),
+	  trunk/src/plugins/project/plugin.py,
+	  trunk/src/plugins/project/__init__.py (added),
+	  trunk/src/plugins/python_debugger/gtkipc.py (removed),
+	  trunk/src/plugins/buffer/plugin.py,
+	  trunk/src/plugins/buffer/__init__.py (added),
+	  trunk/src/plugins/terminal/plugin.py,
+	  trunk/src/plugins/terminal/__init__.py (added),
+	  trunk/src/plugin.py, trunk/src/src (added),
+	  trunk/src/plugins/python_profiler/plugin.py,
+	  trunk/src/plugins/python_profiler/__init__.py (added),
+	  trunk/src/plugins/python_browser/plugin.py,
+	  trunk/src/plugins/python_browser/__init__.py (added),
+	  trunk/src/plugins/python_debugger/plugin.py,
+	  trunk/src/plugins/python_debugger/__init__.py (added),
+	  trunk/src/plugins/vim/plugin.py,
+	  trunk/src/plugins/vim/__init__.py (added),
+	  trunk/src/configuration/config.py, trunk/src/pida.py (removed),
+	  trunk/src/plugins/shortcuts/plugin.py,
+	  trunk/src/plugins/shortcuts/__init__.py (added): file movements
+
+2005-06-16 17:37 +0000 [r35]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/vim/pida_server.py (removed),
+	  trunk/src/plugins/python_profiler/pida_profiler.py (removed),
+	  trunk/src/plugins/python_browser/pida_python.py (removed),
+	  trunk/src/plugins/project/plugin.py (added),
+	  trunk/src/plugins/python_debugger/pida_debugger.py (removed),
+	  trunk/src/plugins/buffer/plugin.py (added),
+	  trunk/src/plugins/terminal/plugin.py (added),
+	  trunk/src/plugins/project/pida_project.py (removed),
+	  trunk/src/plugins/terminal/pida_shell.py (removed),
+	  trunk/src/plugins/buffer/pida_buffer.py (removed),
+	  trunk/src/plugins/python_profiler/plugin.py (added),
+	  trunk/src/plugins/python_browser/plugin.py (added),
+	  trunk/src/plugins/python_debugger/plugin.py (added),
+	  trunk/src/plugins/vim/plugin.py (added),
+	  trunk/src/plugins/shortcuts/pida_shortcuts.py (removed),
+	  trunk/src/plugins/shortcuts/plugin.py (added): renamed for
+	  dynamic module loading
+
+2005-06-16 17:32 +0000 [r34]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/pida_profiler.py (removed),
+	  trunk/src/plugins/vim/pida_server.py (added),
+	  trunk/src/pida_debugger.py (removed), trunk/src/gtkipc.py
+	  (removed), trunk/src/dialogs.py (removed), trunk/src/profiler.py
+	  (removed), trunk/src/plugins/python_browser/pida_python.py
+	  (added), trunk/src/plugins/python_profiler/pida_profiler.py
+	  (added), trunk/src/plugins/python_profiler/profiler.py (added),
+	  trunk/src/plugins/python_debugger/gtkipc.py (added),
+	  trunk/src/plugins/python_debugger/pida_debugger.py (added),
+	  trunk/src/vimembed.py (removed), trunk/src/gtkextra.py (added),
+	  trunk/src/plugins/project/pida_project.py (added),
+	  trunk/src/pida_shortcuts.py (removed), trunk/src/options.py
+	  (removed), trunk/src/tree.py (removed),
+	  trunk/src/plugins/buffer/pida_buffer.py (added),
+	  trunk/src/plugins/project (added),
+	  trunk/src/plugins/terminal/pida_shell.py (added),
+	  trunk/src/configuration/options.py (added),
+	  trunk/src/pida_server.py (removed), trunk/src/pida_project.py
+	  (removed), trunk/src/pida_shell.py (removed),
+	  trunk/src/plugins/vim/vimembed.py (added), trunk/src/config.py
+	  (removed), trunk/src/pida_buffer.py (removed),
+	  trunk/src/plugins/shortcuts/pida_shortcuts.py (added),
+	  trunk/src/icons.py (removed), trunk/src/configuration/config.py
+	  (added), trunk/src/pida_python.py (removed): directories and
+	  files in place for refactor
+
+2005-06-16 17:23 +0000 [r33]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/plugins/python_debugger (added),
+	  trunk/src/configuration (added), trunk/src/gdkvim.py (removed),
+	  trunk/src/pida_debugger.py, trunk/src/debugger.py (removed),
+	  trunk/src/plugins/vim (added), trunk/src/plugins/shortcuts
+	  (added), trunk/src/plugins/python_debugger/debugger.py (added),
+	  trunk/src/plugins (added), trunk/src/pida_shortcuts.py,
+	  trunk/src/plugins/buffer (added), trunk/src/pida_project.py,
+	  trunk/src/pida_server.py, trunk/src/vim (added),
+	  trunk/src/pida_shell.py, trunk/src/plugins/terminal (added),
+	  trunk/src/pida_buffer.py, trunk/src/vim/gdkvim.py (added),
+	  trunk/src/pida.py, trunk/src/plugins/python_profiler (added),
+	  trunk/src/plugins/python_browser (added),
+	  trunk/src/pida_python.py: preparing for package structure
+	  refactoring
+
+2005-06-16 15:53 +0000 [r32]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/TODO.txt, trunk/README.txt (added): add the old readme file
+
+2005-06-14 22:37 +0000 [r31]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/pida_shell.py, trunk/TODO.txt: rogue whitespace
+
+2005-06-14 17:29 +0000 [r30]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/pida_shell.py, trunk/CHANGELOG.txt: updated
+
+2005-06-14 13:47 +0000 [r29]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/pida_python.py: added support for calling pydoc
+	  directly from the python plugin
+
+2005-06-14 13:40 +0000 [r28]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/CHANGELOG.txt, trunk/src/options.py: more sane default
+	  shortcut options
+
+2005-06-14 13:34 +0000 [r27]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/pida_debugger.py: removed debugging symbols, tidied
+	  context menu support
+
+2005-06-14 13:22 +0000 [r26]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/pida_server.py, trunk/src/options.py,
+	  trunk/src/pida_python.py: added pydoc shortcuts for word under
+	  cursor, and yanked text in unnamed register
+
+2005-06-14 12:44 +0000 [r25]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/pida_debugger.py, trunk/src/plugin.py: breakpoint
+	  clearing to file/position context menu
+
+2005-06-14 12:28 +0000 [r24]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/pida_debugger.py: breakpoints cleared when debugger
+	  loaded
+
+2005-06-14 12:23 +0000 [r23]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/pida_debugger.py, trunk/src/pida_server.py,
+	  trunk/src/options.py: added breakpoint clearing and a shortcut
+	  from Vim ensure no duplicate breakpoints
+
+2005-06-14 11:00 +0000 [r20-22]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/data/pida.vim (added), trunk/data (added),
+	  trunk/data/icons.dat (added): added icon files
+
+	* trunk/setup.py: fixed non-existent package
+
+	* trunk/src/pida_profiler.py, trunk/TODO.txt,
+	  trunk/src/pida_python.py: added file/position context menu to
+	  references list
+
+2005-06-14 09:42 +0000 [r19]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/pida_profiler.py, trunk/src/profiler.py,
+	  trunk/CHANGELOG.txt: profiler detailed view
+
+2005-06-13 22:05 +0000 [r18]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/pida_profiler.py: added sorting capability to profiler
+	  output list
+
+2005-06-13 20:57 +0000 [r17]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/pida_profiler.py, trunk/src/profiler.py (added):
+	  profiler support
+
+2005-06-13 19:07 +0000 [r15-16]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/pida_project.py: tooltip spelling error
+
+	* trunk/src/pida_profiler.py (added), trunk/TODO.txt,
+	  trunk/CHANGELOG.txt, trunk/src/options.py, trunk/src/pida.py:
+	  added beginnings of a profiler plugin
+
+2005-06-13 17:59 +0000 [r14]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/tree.py: docstrings
+
+2005-06-13 17:55 +0000 [r12-13]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/gdkvim.py: docstrings
+
+	* trunk/src/pida_debugger.py: fixed context listing for code, and
+	  added double-click handler from frames list
+
+2005-06-13 16:54 +0000 [r11]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/CHANGELOG.txt: foces changes
+
+2005-06-13 16:50 +0000 [r10]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/pida_project.py, trunk/src/plugin.py: return submits
+	  questions, and better return handling or new project editor
+
+2005-06-13 15:43 +0000 [r9]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/pida_project.py, trunk/CHANGELOG.txt,
+	  trunk/src/plugin.py: fixed focuse for transient windows
+
+2005-06-13 15:29 +0000 [r8]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/pida_debugger.py: made eval dump window non-editable
+
+2005-06-13 15:22 +0000 [r7]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/pida_debugger.py, trunk/src/debugger.py,
+	  trunk/src/plugin.py: eval browser for debugger
+
+2005-06-13 13:54 +0000 [r6]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/tree.py, trunk/src/pida_debugger.py: debugger looking
+	  prettier
+
+2005-06-13 12:34 +0000 [r5]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/pida_debugger.py, trunk/src/debugger.py: debugger
+	  locals and globals
+
+2005-06-13 02:54 +0000 [r4]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/pida_debugger.py, trunk/src/pida_shortcuts.py,
+	  trunk/src/pida_python.py, trunk/src/plugin.py: file/line context
+	  menu
+
+2005-06-13 02:05 +0000 [r3]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/__init__.py, trunk/src/pida_debugger.py,
+	  trunk/src/debugger.py, trunk/src/options.py, trunk/src/pida.py:
+	  creakpoint support for the debugger
+
+2005-06-13 00:56 +0000 [r1]  Ali Afshar <aafshar@gmail.com>
+
+	* trunk/src/gtkipc.py (added), trunk (added), trunk/debian/compat
+	  (added), trunk/extras/iconmaker.py (added), trunk/src/vimembed.py
+	  (added), trunk/src/options.py (added), trunk/debian/changelog
+	  (added), trunk/debian/rules (added), trunk/src/tree.py (added),
+	  trunk/docs/pida_manual.lyx (added), trunk/src/pida_shell.py
+	  (added), trunk/debian (added), trunk/TODO.txt (added),
+	  trunk/src/pida_buffer.py (added), trunk/src (added),
+	  trunk/scripts (added), trunk/docs (added), trunk/src/icons.py
+	  (added), trunk/debian/copyright (added), trunk/src/pida.py
+	  (added), trunk/src/pida_debugger.py (added), trunk/src/gdkvim.py
+	  (added), trunk/src/dialogs.py (added), trunk/debian/control
+	  (added), trunk/src/debugger.py (added), trunk/scripts/pida
+	  (added), trunk/CHANGELOG.txt (added), trunk/extras (added),
+	  trunk/debian/control.in (added), trunk/src/pida_shortcuts.py
+	  (added), trunk/debian/docs (added), trunk/MANIFEST.in (added),
+	  trunk/src/plugin.py (added), trunk/src/__init__.py (added),
+	  trunk/debian/pida.1.gz (added), trunk/src/pida_server.py (added),
+	  trunk/src/pida_project.py (added), trunk/src/config.py (added),
+	  trunk/extras/iconmaker.data (added), trunk/debian/menu (added),
+	  trunk/setup.py (added), trunk/debian/watch (added),
+	  trunk/src/pida_python.py (added): Initial import
+

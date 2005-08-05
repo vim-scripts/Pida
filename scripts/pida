@@ -1,0 +1,4 @@
+#! /usr/bin/env python
+import pida.main
+import sys
+pida.main.main(sys.argv)
